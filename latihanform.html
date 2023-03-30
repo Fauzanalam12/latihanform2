@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Form v2</title> 
+ </head> 
+ <body> 
+  <h1>Latihan Form HTML</h1> 
+  <form> 
+   <table border="0"> 
+    <tbody> 
+     <tr>
+      <td>Nama</td>
+      <td>:</td>
+      <td> <input type="text" name="nama"></td>
+     </tr> 
+     <tr>
+      <td>Tgl Lahir</td>
+      <td>:</td>
+      <td><input type="date" name="tgl_lahir"></td>
+     </tr> 
+     <tr>
+      <td>Alamat</td>
+      <td>:</td>
+      <td><textarea name="alamat" rows="9" cols="30"></textarea> </td>
+     </tr> 
+     <tr>
+      <td>Kota</td>
+      <td>:</td>
+      <td><input type="text" name="kota"> </td>
+     </tr> 
+     <tr>
+      <td>Pekerjaan</td>
+      <td>:</td>
+      <td> <select name="pekerjaan"> <option value="Wirausaha">Wirausaha</option> <option value="Karyawan Swasta">Karyawan Swasta</option> <option value="Pegawai Negeri">Pegawai Negeri</option> <option value="Guru">Guru</option> </select></td>
+     </tr> 
+     <tr>
+      <td>Jenis Kelamin</td>
+      <td>:</td>
+      <td><input type="radio" name="jeniskel" value="Laki-Laki">Laki-Laki </td>
+      <td><input type="radio" name="jeniskel" value="Perempuan">Perempuan<br><br> </td>
+     </tr> 
+     <tr>
+      <td>Hobby</td>
+      <td>:</td>
+      <td><input type="checkbox" name="Reading">Reading<br> <input type="checkbox" name="Singing">Singing<br> <input type="checkbox" name="Swimming">Swimming<br> <input type="checkbox" name="Traveling">Traveling</td>
+     </tr> 
+    </tbody>
+   </table>
+  </form> 
+  <br> 
+  <input type="button" value="Simpan" onclick="alert('Data Berhasil disimpan')"> 
+  <input type="reset" value="cancel"> 
+ 
+</body></html>
